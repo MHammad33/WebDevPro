@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Forms</title>
+	</head>
+	<body>
+		<h1>Forms</h1>
+		<p>Forms are used to collect user input.</p>
+		<p>They can include text fields, checkboxes, radio buttons, and more.</p>
+		<p>Here's a simple form example:</p>
+
+		<h2>Example Login Form</h2>
+
+		<form>
+			<label for="username">
+				Username:
+				<input type="text" id="username" name="username" required />
+			</label>
+
+			<label for="password">
+				Password:
+				<input type="password" id="password" name="password" required />
+			</label>
+
+			<button type="reset">Reset</button>
+			<button type="submit">Login</button>
+		</form>
+
+		<h2>Example Registration Form</h2>
+
+		<form>
+			<label for="email">
+				Email:
+				<input
+					type="email"
+					id="email"
+					name="email"
+					placeholder="Email"
+					autocomplete="email"
+					required
+				/>
+			</label>
+
+			<label for="age">
+				Age:
+				<input type="number" id="age" name="age" min="0" max="120" required />
+			</label>
+
+			<label for="dob-month">
+				Date of Birth Month:
+				<input type="month" id="dob-month" name="dob-month" required />
+			</label>
+
+			<label for="dob-date">
+				Date of Birth:
+				<input type="date" id="dob-date" name="dob-date" required />
+			</label>
+
+			<label for="resume">
+				Resume:
+				<input
+					type="file"
+					id="resume"
+					name="resume"
+					accept=".pdf,.doc,.docx"
+					required
+				/>
+			</label>
+
+			<label for="color">
+				Favorite Color:
+				<input type="color" id="color" name="color" />
+			</label>
+
+			<label for="url">
+				Website:
+				<input type="url" id="url" name="url" required />
+			</label>
+
+			<br />
+			<br />
+			<label for="bio">
+				Bio:
+				<textarea id="bio" name="bio" rows="4" cols="50" required></textarea>
+			</label>
+
+			<button type="reset">Reset</button>
+			<button type="submit">Register</button>
+		</form>
+	</body>
+</html>

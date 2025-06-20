@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ARIA</title>
+	</head>
+	<body>
+		<h1>ARIA (Accessible Rich Internet Applications)</h1>
+
+		<p>
+			ARIA is a set of attributes that can be added to HTML elements to improve
+			accessibility for users with disabilities.
+		</p>
+
+		<p>
+			ARIA attributes help screen readers and other assistive technologies
+			understand the purpose and state of elements on a web page.
+		</p>
+
+		<h2>Example: ARIA Roles and Properties</h2>
+		<p>
+			The following example demonstrates how to use ARIA roles and properties to
+			enhance accessibility:
+		</p>
+		<div role="navigation" aria-label="Main Navigation">
+			<ul>
+				<li><a href="#home" role="link">Home</a></li>
+				<li><a href="#about" role="link">About</a></li>
+				<li><a href="#contact" role="link">Contact</a></li>
+			</ul>
+		</div>
+
+		<div role="main" aria-label="Main Content">
+			<h2>Welcome to Our Website</h2>
+			<p>This is the main content area.</p>
+			<button role="button" aria-pressed="false" onclick="toggleButton(this)">
+				Toggle Button
+			</button>
+		</div>
+	</body>
+</html>
