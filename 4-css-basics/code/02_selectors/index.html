@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Selectors | CSS</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header id="header">This is the header</header>
+
+		<h1>Main Heading</h1>
+		<p>
+			This paragraph is adjacent to h1 (Main Heading) and demonstrates the
+			adjacent sibling selector.
+		</p>
+		<p>
+			This is the regular paragraph and it is not adjacent to the h1. It shows
+			the type selector.
+		</p>
+
+		<p class="highlight">
+			This paragraph has a class of "highlight" and demonstrates the class
+			selector.
+		</p>
+
+		<input type="text" placeholder="Type here..." />
+
+		<article>
+			<p>
+				This paragraph is inside an article element showing the descendant
+				selector.
+			</p>
+			<p>
+				Another paragraph inside an article element showing the descendant
+				selector.
+			</p>
+			<div>
+				<p>
+					This paragraph is inside a div that is a descendant of the article
+				</p>
+			</div>
+		</article>
+
+		<div>
+			<p>I am a child</p>
+			<p>I am a child</p>
+			<section>
+				<p>I am a descendant</p>
+			</section>
+			<p>I am a child</p>
+		</div>
+
+		<h2>Sub Heading</h2>
+		<p>
+			This is a sibling paragraph to the h2 (Sub Heading) and demonstrates the
+			general sibling selector.
+		</p>
+		<div>
+			This is sibling div to the h2 (Sub Heading) and demonstrates the general
+			sibling selector.
+		</div>
+		<p>
+			This is another sibling paragraph to the h2 (Sub Heading) and demonstrates
+			the general sibling selector.
+		</p>
+
+		<a href="#"> Hover over me to see the pseudo-class selector in action!</a>
+
+		<p>
+			This paragraph demonstrates pseudo-elements. The first line is styled
+			differently. You can see the effect of the ::first-line pseudo-element
+			selector.
+		</p>
+
+		<h3>Heading 3</h3>
+		<p>
+			This paragraph is adjacent to h3 (Heading 3) and demonstrates the adjacent
+			sibling selector.
+		</p>
+	</body>
+</html>

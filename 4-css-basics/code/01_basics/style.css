@@ -1,0 +1,18 @@
+.description {
+	font-size: 20px;
+	font-family: Arial, sans-serif;
+	line-height: 1.5;
+	margin: 20px;
+	padding: 10px;
+	background-color: lightblue;
+	border: 2px solid darkblue;
+	border-radius: 5px;
+}
+
+.heading {
+	font-size: 24px;
+	font-family: "Courier New", Courier, monospace;
+	color: darkblue;
+	text-align: center;
+	margin-top: 20px;
+}
