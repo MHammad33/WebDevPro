@@ -8,3 +8,5 @@ Welcome! This repo contains structured notes on different topics. Click below to
 2. [Basics of Web Development](./2-basics-of-webdev/webdev-basics.md)
 3. [HTML Basics](./3-html-basics/html.md)
 4. [CSS Basics](./4-css-basics/css.md)
+
+- [Tailwind CSS](./4-css-basics/Tailwind%20CSS/tailwind.md)
